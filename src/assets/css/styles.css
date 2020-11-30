@@ -1,0 +1,67 @@
+@import "./reset.css";
+
+.screen {
+    width: 100%;
+    height: 625px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.screen .screen__col1 {
+    width: 10%;
+    height: 625px;
+
+    background-color: palegoldenrod;
+}
+
+.screen .screen__col2 {
+    width: 80%;
+    height: 625px;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.screen .screen__col2 .screen__col2__sec1 {
+    width: 100%;
+    height: 100px;
+
+    background-color: antiquewhite;
+}
+
+.screen .screen__col2 .screen__col2__sec2 {
+    width: 100%;
+    height: 425px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.screen .screen__col2 .screen__col2__sec2__box1 {
+    width: 50%;
+    height: 425px;
+
+    background-color: yellow;
+}
+
+.screen .screen__col2 .screen__col2__sec2__box2 {
+    width: 50%;
+    height: 425px;
+
+    background-color: yellowgreen;
+}
+
+.screen .screen__col2 .screen__col2__sec3 {
+    width: 100%;
+    height: 100px;
+
+    background-color: aquamarine;
+}
+
+.screen .screen__col3 {
+    width: 10%;
+    height: 625px;
+
+    background-color: indianred;
+}
